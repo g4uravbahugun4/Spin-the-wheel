@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaTrashAlt } from 'react-icons/fa'
 import ObjectRow from './ObjectRow'
 import { useSelector,useDispatch } from 'react-redux'
-import {actions} from './store'
+import {actions} from '../store/store'
 
 function Reward() {
     const counter = useSelector((state) => state.counter)
